@@ -3,7 +3,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 
 def main():
-    updater = Updater("967478626:AAESd8Cyt84ISkPsHl5D3qculg5zlkr6NGU", use_context=True)
+    updater = Updater("", use_context=True)
     dp = updater.dispatcher
     dp.add_handler(MessageHandler(Filters.text, abiach))
     updater.start_polling()
